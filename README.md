@@ -6,7 +6,7 @@ This repository houses a sophisticated film recommendation system crafted in Pyt
 
 The **Cinema Curator** aims to:
 
-* **Process Film Catalogs:** Ingest and interpret movie information from CSV files, such as `imdb_top_1000.csv`.
+* **Process Film Catalogs:** Ingest and interpret movie information from CSV files, such as `movies_set.csv`.
 * **Construct Enhanced Feature Profiles:** Develop detailed textual representations of films, giving heightened importance to genre and plot descriptions for improved accuracy.
 * **Establish Baseline Resemblance:** Utilize TF-IDF to determine the foundational similarity between film narratives.
 * **Identify Genre Preferences:** Extract user-preferred film genres from textual queries, employing a dynamic dictionary to handle genre variations.
