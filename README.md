@@ -26,7 +26,7 @@ The **Cinema Curator** aims to:
 
 ## Data Source
 
-* This project is configured to use a film dataset similar to IMDb, named `imdb_top_1000.csv`.
+* This project is configured to use a film dataset similar to IMDb, named `movies_set.csv`.
 * Required CSV columns: `Film_Title`, `Release_Year`, `Category`, `Summary`, `Director`, `Lead_Actor`, `Supporting_Actor`, `Film_Rating`, etc.
 
 ## Getting Started Guide
@@ -34,7 +34,6 @@ The **Cinema Curator** aims to:
 1.  **Open the Script:**
     * **Cloud-Based Execution (Colab):** Upload the `.ipynb` file to Google Colab.
     * **Remote Access (GitHub/Colab):** If your script is on GitHub, open it directly by modifying the URL for Colab.
-    * **Local Execution (Jupyter):** Run `jupyter notebook FilmSuggester.ipynb` in your terminal (ensure Jupyter is installed).
 2.  **Import Data:**
     * **Cloud Storage (Colab):** Upload the CSV via the file explorer or connect to Google Drive:
         ```python
@@ -47,4 +46,3 @@ The **Cinema Curator** aims to:
 4.  **Input Film Preferences:** Provide a description of your desired film genres and settings.
 5.  **Receive Film Suggestions:** The system will present a list of film recommendations based on your input.
 
-## Sample Output
